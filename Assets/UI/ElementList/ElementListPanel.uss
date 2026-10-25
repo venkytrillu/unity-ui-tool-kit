@@ -1,0 +1,136 @@
+
+.element-panel {
+    background-color: #171a20;
+    color: #e5eaf2;
+    flex-direction: column;
+    border-right-width: 1px;
+    border-right-color: #303641;
+}
+
+.element-header {
+    padding: 16px;
+    background-color: #222731;
+    border-bottom-width: 1px;
+    border-bottom-color: #343a46;
+}
+
+.panel-title {
+    font-size: 17px;
+    -unity-font-style: bold;
+    color: #f4f6fa;
+    margin-bottom: 5px;
+}
+
+.panel-count {
+    font-size: 11px;
+    color: #aab4c4;
+}
+
+.element-search {
+    margin: 12px;
+    margin-bottom: 8px;
+}
+
+#element-list {
+    flex-grow: 1;
+    min-height: 0;
+    background-color: #171a20;
+}
+
+.element-row {
+    height: 64px;
+    min-height: 64px;
+    max-height: 64px;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 12px;
+    padding-right: 8px;
+    border-bottom-width: 1px;
+    border-bottom-color: #303640;
+    background-color: #1b1f27;
+}
+
+.element-row:hover {
+    background-color: #282f3b;
+}
+
+.element-row.selected-row {
+    background-color: #293a50;
+    border-left-width: 3px;
+    border-left-color: #6ba7ff;
+    padding-left: 9px;
+}
+
+.element-icon {
+    width: 30px;
+    margin-right: 8px;
+    font-size: 18px;
+    color: #8eb8ff;
+    -unity-text-align: middle-center;
+}
+
+.element-text-column {
+    flex-grow: 1;
+    flex-shrink: 1;
+    min-width: 0;
+    justify-content: center;
+}
+
+.element-id {
+    font-size: 13px;
+    color: #f0f3f8;
+    -unity-font-style: bold;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.element-description {
+    margin-top: 3px;
+    font-size: 11px;
+    color: #aab4c4;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.element-type {
+    min-width: 48px;
+    margin-left: 5px;
+    margin-right: 4px;
+    font-size: 9px;
+    color: #b8d2ff;
+    -unity-text-align: middle-center;
+}
+
+.icon-button {
+    width: 30px;
+    min-width: 30px;
+    height: 30px;
+    margin-left: 2px;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+    background-color: transparent;
+    color: #c3ccda;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    border-right-width: 0;
+    font-size: 17px;
+}
+
+.icon-button:hover {
+    background-color: #394454;
+    color: #ffffff;
+}
+
+.element-footer {
+    min-height: 34px;
+    padding: 9px 12px;
+    background-color: #222731;
+    border-top-width: 1px;
+    border-top-color: #343a46;
+    font-size: 11px;
+    color: #aab4c4;
+}
